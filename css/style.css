@@ -81,7 +81,7 @@ hr {
     background-position: center;
     background-attachment: fixed;
     width: 100%;
-    height: 800px;
+    height: 700px;
     position: relative;
 }
 
@@ -133,6 +133,14 @@ hr {
     border-bottom: 2px solid #fce38a ;
 }
 
+@supports ((position:-webkit-sticky) or (position:sticky)) {
+	.sticky-top {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+		z-index: 1020
+	}
+}
 
 /* 
     Intro Section Style 
