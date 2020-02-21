@@ -333,7 +333,7 @@ hr {
 
 .section_title{
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 0 50px 0;
 }
 .section_title p{
     font-size: 24px;
@@ -357,6 +357,7 @@ hr {
     width: 70px;
     margin: 0 auto;
 }
+
 
 
 
