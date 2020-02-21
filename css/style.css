@@ -76,7 +76,7 @@ hr {
 */
 
  #header{
-    background: linear-gradient(#e88d83d5, #f1d78ac5), url(../img/intro\ \(2\).jpg);
+    background: linear-gradient( #f38181ea, #fce38ae8), url(../img/intro\ \(2\).jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -131,15 +131,6 @@ hr {
 #main_menu ul#nav li a:hover{
     color: #fce38a;
     border-bottom: 2px solid #fce38a ;
-}
-
-@supports ((position:-webkit-sticky) or (position:sticky)) {
-	.sticky-top {
-		position: -webkit-sticky;
-		position: sticky;
-		top: 0;
-		z-index: 1020
-	}
 }
 
 /* 
@@ -211,6 +202,171 @@ hr {
 .intro__outer ul#intro__end li a:hover{
     border-top: 3px solid #f38181;
 }
+
+/* 
+    About Us Style 
+*/
+
+.section_title{
+    text-align: center;
+    padding-top: 50px;
+}
+.section_title p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+    color: #333333;
+}
+.section_title h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.section_title hr {
+    margin: 0;
+    padding: 0;
+    background: #f38181;
+    height: 3px;
+    width: 70px;
+    margin: 0 auto;
+}
+.section_title .section_subtitle {
+    padding: 40px 0 80px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* 
+    About Us Cards Style 
+*/
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.cards_item {
+    flex-basis: 30%;
+    position: relative;
+}
+.cards_inner{
+    background-color: #95e1d3;
+}
+.cards_inner:hover .cards_image{
+    transform: translate3d(-10px, -10px, 0);
+}
+.cards_inner:hover .cards_image img{
+    opacity: 0.1;
+}
+.cards_inner:hover .cards_text {
+    opacity: 1;
+}
+.cards_inner .cards_image{
+    background: linear-gradient(to bottom, #f38181, #fce38a );
+    transition: transform 0.3s linear;
+}
+.cards_image img{
+    display: block;
+    transition: opacity 0.1s linear;
+}
+.cards_inner .cards_text{
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    left: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    transition: opacity 0.3s linear;
+    opacity: 0;
+    z-index: 2;
+}
+
+.cards_inner .cards_text a i{
+    color: #fff;
+    font-size: 25px;
+}
+
+/* 
+    Statics Area Style
+*/
+
+.statics_area{
+    background: #95e1d3;
+    overflow: hidden;
+}
+
+ .statics .statics_item{
+    text-align: center;
+    display: inline-block;
+    flex: 1 1 0;
+    padding-right: 30px;
+    margin: 60px 0 30px 30px;
+    border-right: 1px solid #b5eae0;
+} 
+ .statics .statics_item:last-child {
+    border-right: 1px solid #95e1d3;
+} 
+ .statics .statics_item h1{
+    font-size: 72px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1;
+} 
+ .statics .statics_item p{
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+} 
+
+/* 
+    Service Area Section Style 
+*/
+
+.section_title{
+    text-align: center;
+    padding-top: 50px;
+}
+.section_title p{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Kaushan Script', cursive;
+    color: #333333;
+}
+.section_title h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.section_title hr {
+    margin: 0;
+    padding: 0;
+    background: #f38181;
+    height: 3px;
+    width: 70px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
