@@ -365,18 +365,20 @@ hr{
 .service_item{
     
 }
-.service_item h3{
-    display: inline-block;
+.service_item h2{
     margin: 0;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
+    text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 }
 .service_item p{
     font-size: 15px;
     font-weight: 400;
+    text-align: inherit;
     font-family: 'Montserrat', sans-serif;
     color: #999999;
+    margin-top: 10px;
 }
 .service_item a i{
     color: #95e1d3;
@@ -385,6 +387,9 @@ hr{
     margin: 10px 0px 0px 50px;
 }
 
+.service_p {
+    padding-bottom: 70px;
+}
 
 
 
